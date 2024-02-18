@@ -13,16 +13,20 @@ function Portfolio() {
         </span>
       </div>
       <div className="recent-work-container">
-        {projectCards.map(({ key, imageSrc, summary, projectLink }) => {
-          return (
-            <ProjectCard
-              key={key}
-              imageSrc={imageSrc}
-              summary={summary}
-              projectLink={projectLink}
-            />
-          );
-        })}
+        <div class="project-grid">
+          <div class="columns">
+            {projectCards.map(({ key, imageSrc, summary, projectLink }) => {
+              return (
+                <ProjectCard
+                  key={key}
+                  imageSrc={imageSrc}
+                  summary={summary}
+                  projectLink={projectLink}
+                />
+              );
+            })}
+          </div>
+        </div>
       </div>
     </section>
   );
