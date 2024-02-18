@@ -14,19 +14,19 @@ function AboutMe() {
     AOS.init();
   }, []);
   return (
-    <section class="about-me" id="about">
-      <div class="top">
-        <div class="top-container flex-row-space">
-          <div class="about-left-col">
-            <p class="who-is uppercase">Who is</p>
-            <p class="niladri-question uppercase primary-color">
+    <section className="about-me" id="about">
+      <div className="top">
+        <div className="top-container flex-row-space">
+          <div className="about-left-col">
+            <p className="who-is uppercase">Who is</p>
+            <p className="niladri-question uppercase primary-color">
               Niladri Ghosh?
             </p>
-            <p class="scroll-to-know">Scroll down to know more.</p>
+            <p className="scroll-to-know">Scroll down to know more.</p>
           </div>
-          <div class="about-right-col">
+          <div className="about-right-col">
             <img
-              class="person-back"
+              className="person-back"
               src={aboutImage}
               alt="Back side of a person"
             />
@@ -39,50 +39,54 @@ function AboutMe() {
         </div>
       </div>
 
-      <div class="middle flex-row-space" id="middle">
-        <div class="big-text big-text-left uppercase big-text-color">
+      <div className="middle flex-row-space" id="middle">
+        <div className="big-text big-text-left uppercase big-text-color">
           {aboutMeDesigner.tag}
         </div>
-        <div class="text-holder middle-text-right">
+        <div className="text-holder middle-text-right">
           <img
-            class="designer-image"
+            className="designer-image"
             src={aboutMeDesigner.imgSource}
             alt="Picture for designer section"
           />
           <div
-            class="about-me-summary"
+            className="about-me-summary"
             data-aos="fade-left"
             data-aos-offset="150"
             data-aos-duration="1000"
           >
-            <div class="about-me-summary-head uppercase primary-color">
+            <div className="about-me-summary-head uppercase primary-color">
               {aboutMeDesigner.titleHead}
             </div>
-            <div class="about-me-summary-body">{aboutMeDesigner.summary}</div>
+            <div className="about-me-summary-body">
+              {aboutMeDesigner.summary}
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="bottom flex-row-space">
-        <div class="text-holder bottom-text-left">
+      <div className="bottom flex-row-space">
+        <div className="text-holder bottom-text-left">
           <img
-            class="developer-image"
+            className="developer-image"
             src={aboutMeDeveloper.imgSource}
             alt="Picture for developer section"
           />
           <div
-            class="about-me-summary pos-rectifier"
+            className="about-me-summary pos-rectifier"
             data-aos="fade-right"
             data-aos-offset="150"
             data-aos-duration="1000"
           >
-            <div class="about-me-summary-head uppercase primary-color">
+            <div className="about-me-summary-head uppercase primary-color">
               {aboutMeDeveloper.titleHead}
             </div>
-            <div class="about-me-summary-body">{aboutMeDeveloper.summary}</div>
+            <div className="about-me-summary-body">
+              {aboutMeDeveloper.summary}
+            </div>
           </div>
         </div>
-        <div class="big-text big-text-right uppercase big-text-color">
+        <div className="big-text big-text-right uppercase big-text-color">
           {aboutMeDeveloper.tag}
         </div>
       </div>

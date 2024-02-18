@@ -98,3 +98,9 @@ export const projectCards = [
     projectLink: "https://github.com/0xNILADRI/Human-Activity-Recognition",
   },
 ];
+
+export const contactMeData = {
+  cliche: "Don't hold back",
+  contactMe:
+    "Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
+};

@@ -3,20 +3,20 @@ import ProjectCard from "./ProjectCard";
 
 function Portfolio() {
   return (
-    <section class="portfolio">
-      <div class="subhead-recent-work" id="portfolio">
-        <h2 class="recent uppercase">
-          Recent <span class="work uppercase primary-color">Work</span>
+    <section className="portfolio">
+      <div className="subhead-recent-work" id="portfolio">
+        <h2 className="recent uppercase">
+          Recent <span className="work uppercase primary-color">Work</span>
         </h2>
-        <span class="big-portfolio-text uppercase big-text-color">
+        <span className="big-portfolio-text uppercase big-text-color">
           Portfolio
         </span>
       </div>
-      <div class="recent-work-container">
-        {projectCards.map(({ id, imageSrc, summary, projectLink }) => {
+      <div className="recent-work-container">
+        {projectCards.map(({ key, imageSrc, summary, projectLink }) => {
           return (
             <ProjectCard
-              key={id}
+              key={key}
               imageSrc={imageSrc}
               summary={summary}
               projectLink={projectLink}

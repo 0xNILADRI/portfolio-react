@@ -4,15 +4,15 @@ import navCloseMenu from "../assets/menu-close.svg";
 
 function Navbar() {
   return (
-    <div class="navbar">
-      <div class="container">
-        <a class="logo primary-color" href="#">
-          Niladri<span class="ghosh secondary-color">Ghosh</span>
+    <div className="navbar">
+      <div className="container">
+        <a className="logo primary-color" href="#">
+          Niladri<span className="ghosh secondary-color">Ghosh</span>
         </a>
 
         <img
           id="mobile-open"
-          class="mobile-menu"
+          className="mobile-menu"
           src={navMenu}
           alt="Open Navigation Menu"
         />
@@ -20,15 +20,15 @@ function Navbar() {
         <nav>
           <img
             id="mobile-exit"
-            class="mobile-menu-exit"
+            className="mobile-menu-exit"
             src={navCloseMenu}
             alt="Close Navigation Menu"
           />
-          <ul class="main-nav">
+          <ul className="main-nav">
             {navBarLinks.map(({ key, href, className, text }) => {
               return (
                 <li key={key}>
-                  <a href={href} class={className}>
+                  <a href={href} className={className}>
                     {text}
                   </a>
                 </li>
