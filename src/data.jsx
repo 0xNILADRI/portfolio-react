@@ -1,11 +1,17 @@
 import designerImage from "./assets/designer.png";
 import developerImage from "./assets/developer.png";
-import projectOneImage from "./assets/FLDSMDFR.jpg";
-import projectTwoImage from "./assets/leadosaurus.jpg";
-import projectThreeImage from "./assets/django.jpg";
-import projectFourImage from "./assets/demo-portfolio.jpg";
-import projectFiveImage from "./assets/breast-cancer.jpg";
-import projectSixImage from "./assets/human-activity.jpg";
+
+import projectOneImage from "./assets/projects/FLDSMDFR.jpg";
+import projectTwoImage from "./assets/projects/leadosaurus.jpg";
+import projectThreeImage from "./assets/projects/django.jpg";
+import projectFourImage from "./assets/projects/demo-portfolio.jpg";
+import projectFiveImage from "./assets/projects/breast-cancer.jpg";
+import projectSixImage from "./assets/projects/human-activity.jpg";
+
+import footerOneImage from "./assets/footer-icons/linkedin.svg";
+import footerTwoImage from "./assets/footer-icons/twitter.svg";
+import footerThreeImage from "./assets/footer-icons/discord.svg";
+import footerFourImage from "./assets/footer-icons/telegram.svg";
 
 export const navBarLinks = [
   { key: 1, href: "#about", className: "scroll-about", text: "About Me" },
@@ -104,3 +110,34 @@ export const contactMeData = {
   contactMe:
     "Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
 };
+
+export const footerIconLinks = [
+  {
+    key: 1,
+    href: "https://www.linkedin.com/in/0xniladri/",
+    classname: "linkedin",
+    sourceImage: footerOneImage,
+    altText: "linkedin logo",
+  },
+  {
+    key: 2,
+    href: "https://twitter.com/0xNILADRI",
+    classname: "twitter",
+    sourceImage: footerTwoImage,
+    altText: "twitter logo",
+  },
+  {
+    key: 3,
+    href: "https://discord.com/channels/@me/nil1406#0717",
+    classname: "discord",
+    sourceImage: footerThreeImage,
+    altText: "discord logo",
+  },
+  {
+    key: 4,
+    href: "tg://user?id=325142979",
+    classname: "telegram",
+    sourceImage: footerFourImage,
+    altText: "telegram logo",
+  },
+];
