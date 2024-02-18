@@ -1,4 +1,6 @@
 import { navBarLinks } from "../data";
+import navMenu from "../assets/menu.svg";
+import navCloseMenu from "../assets/menu-close.svg";
 
 function Navbar() {
   return (
@@ -11,7 +13,7 @@ function Navbar() {
         <img
           id="mobile-open"
           class="mobile-menu"
-          src="images/menu.svg"
+          src={navMenu}
           alt="Open Navigation Menu"
         />
 
@@ -19,7 +21,7 @@ function Navbar() {
           <img
             id="mobile-exit"
             class="mobile-menu-exit"
-            src="images/menu-close.svg"
+            src={navCloseMenu}
             alt="Close Navigation Menu"
           />
           <ul class="main-nav">
