@@ -1,9 +1,18 @@
+import React, { useEffect } from "react";
+
 import { marqueeData } from "../data";
 import aboutImage from "../assets/person.jpg";
 import { aboutMeDesigner } from "../data";
 import { aboutMeDeveloper } from "../data";
 
+// importing aos
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function AboutMe() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section class="about-me" id="about">
       <div class="top">
@@ -36,8 +45,8 @@ function AboutMe() {
         </div>
         <div class="text-holder middle-text-right">
           <img
-            class={aboutMeDesigner.imgSource}
-            src="images/designer.png"
+            class="designer-image"
+            src={aboutMeDesigner.imgSource}
             alt="Picture for designer section"
           />
           <div

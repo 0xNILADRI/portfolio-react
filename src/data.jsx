@@ -34,7 +34,7 @@ export const marqueeData = `AWESOME DESIGNER + ASTONISHING DEVELOPER ➞ AWESOME
 
 export const aboutMeDesigner = {
   tag: "Designer",
-  imgSource: { designerImage },
+  imgSource: designerImage,
   titleHead: "The designer",
   summary:
     "The person who loves to create engaging and interactive modern designs. Bring in simplicity and friendliness to complex designs.",
@@ -42,7 +42,7 @@ export const aboutMeDesigner = {
 
 export const aboutMeDeveloper = {
   tag: "Developer",
-  imgSource: { developerImage },
+  imgSource: developerImage,
   titleHead: "The developer",
   summary:
     "Person who takes care of the technical stuff. Create user friendly and responsive websites for maximum speed and scalability.",
