@@ -3,6 +3,7 @@ import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <AboutMe />
+      <Portfolio />
     </>
   );
 }
