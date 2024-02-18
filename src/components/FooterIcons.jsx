@@ -1,6 +1,6 @@
-function FooterIcons({ key, href, classname, sourceImage, altText }) {
+function FooterIcons({ href, classname, sourceImage, altText }) {
   return (
-    <a href={href} key={key}>
+    <a href={href}>
       <img className={classname} src={sourceImage} alt={altText} />
     </a>
   );

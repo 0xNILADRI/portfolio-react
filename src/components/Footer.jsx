@@ -3,13 +3,13 @@ import FooterIcons from "./FooterIcons";
 
 function Footer() {
   return (
-    <footer class="footer-color" id="contact">
-      <div class="footer-container">
-        <h2 class="footer-name uppercase">Niladri Ghosh</h2>
-        <a href="mailto:0xniladri@gmail.com" class="footer-email">
+    <footer className="footer-color" id="contact">
+      <div className="footer-container">
+        <h2 className="footer-name uppercase">Niladri Ghosh</h2>
+        <a href="mailto:0xniladri@gmail.com" className="footer-email">
           0xNILADRI@gmail.com
         </a>
-        <div class="footer-icons">
+        <div className="footer-icons">
           {footerIconLinks.map(
             ({ key, href, classname, sourceImage, altText }) => {
               return (
