@@ -6,7 +6,7 @@ function Hero() {
         <div className="middle-col">
           <p className="my-name uppercase primary-color">Niladri Ghosh</p>
           <h1 className="secondary-color">Designer. Developer.</h1>
-          <a href="#" className="know-more-button uppercase">
+          <a href="#about" className="know-more-button uppercase">
             Know More
           </a>
         </div>

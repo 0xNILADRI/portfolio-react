@@ -3,7 +3,7 @@
   --secondary-color: #9f9f9f;
   --button-specific-color: #171717;
   --footer-color: #080808;
-  --big-text-color: #1b1b1b;
+  --big-text-color: #282626;
 }
 
 ::-webkit-scrollbar {
@@ -25,6 +25,10 @@
 ::-webkit-scrollbar-track {
   background: inherit !important;
   border: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -342,6 +346,7 @@ section {
   color: black;
   background: white;
   font-size: 0.8em;
+  text-decoration: none;
   padding: 1em;
   width: 90px;
   height: auto;
@@ -660,6 +665,7 @@ footer .footer-container .footer-icons .linkedin,
 footer .footer-container .footer-icons .discord,
 footer .footer-container .footer-icons .telegram {
   width: 32px;
+  padding-right: 20px;
 }
 
 footer .footer-container .made-with-love {

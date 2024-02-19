@@ -22,7 +22,9 @@ function AboutMe() {
             <p className="niladri-question uppercase primary-color">
               Niladri Ghosh?
             </p>
-            <p className="scroll-to-know">Scroll down to know more.</p>
+            <a href="#portfolio" className="scroll-to-know">
+              Scroll down to know more.
+            </a>
           </div>
           <div className="about-right-col">
             <img

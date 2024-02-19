@@ -13,8 +13,8 @@ function Portfolio() {
         </span>
       </div>
       <div className="recent-work-container">
-        <div class="project-grid">
-          <div class="columns">
+        <div className="project-grid">
+          <div className="columns">
             {projectCards.map(({ key, imageSrc, summary, projectLink }) => {
               return (
                 <ProjectCard
