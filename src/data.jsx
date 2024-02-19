@@ -1,12 +1,12 @@
-import designerImage from "./assets/designer.png";
-import developerImage from "./assets/developer.png";
+import designerImage from "./assets/designer.webp";
+import developerImage from "./assets/developer.webp";
 
-import projectOneImage from "./assets/projects/FLDSMDFR.jpg";
-import projectTwoImage from "./assets/projects/leadosaurus.jpg";
-import projectThreeImage from "./assets/projects/django.jpg";
-import projectFourImage from "./assets/projects/demo-portfolio.jpg";
-import projectFiveImage from "./assets/projects/breast-cancer.jpg";
-import projectSixImage from "./assets/projects/human-activity.jpg";
+import projectOneImage from "./assets/projects/FLDSMDFR.webp";
+import projectTwoImage from "./assets/projects/leadosaurus.webp";
+import projectThreeImage from "./assets/projects/django.webp";
+import projectFourImage from "./assets/projects/demo-portfolio.webp";
+import projectFiveImage from "./assets/projects/breast-cancer.webp";
+import projectSixImage from "./assets/projects/human-activity.webp";
 
 import footerOneImage from "./assets/footer-icons/linkedin.svg";
 import footerTwoImage from "./assets/footer-icons/twitter.svg";

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 import { marqueeData } from "../data";
-import aboutImage from "../assets/person.jpg";
+import aboutImage from "../assets/person.webp";
 import { aboutMeDesigner } from "../data";
 import { aboutMeDeveloper } from "../data";
 
